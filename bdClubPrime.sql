@@ -269,11 +269,21 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (11, 9, 5), -- Coppa Italia
 (11, 1, 12); -- Serie B
 
--- Sélectionnez tous les enregistrements de la table Club
-SELECT * FROM Club;
+-- Insertions dans la table Joueur
+INSERT INTO Joueur (nom, prenom, poste, idClub)
+VALUES
+  ('Ulreich', 'Sven', 'Gardien', 1),
+  ('Davies', 'Alphonso', 'Défenseur', 1),
+  ('Min-Jae', 'Kim', 'Défenseur', 1),
+  ('Upamecano', 'Dayot', 'Défenseur', 1),
+  ('Mazraoui', 'Noussair', 'Défenseur', 1),
+  ('Kimmich', 'Joshua', 'Milieu', 1),
+  ('Goretzka', 'Leon', 'Milieu', 1),
+  ('Coman', 'Kingsley', 'Attaquant', 1),
+  ('Musiala', 'Jamal', 'Milieu', 1),
+  ('Sané', 'Leroy', 'Attaquant', 1),
+  ('Kane', 'Harry', 'Attaquant', 1);
 
--- Sélectionnez tous les enregistrements de la table Club
-SELECT * FROM Club;
 
 -- Sélectionnez tous les enregistrements de la table Club
 SELECT * FROM Club;
