@@ -300,17 +300,17 @@ VALUES
 
 INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
-  ('Díaz', 'Luis', 'E:\\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\LD.webp', '1997-01-13', 'Attaquant', 2),
-  ('Núñez', 'Darwin', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DN.webp', '1999-06-24', 'Attaquant', 2),
-  ('Salah', 'Mohamed', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\MS.webp', '1992-06-15', 'Attaquant', 2),
-  ('Jones', 'Curtis', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\CJ.webp', '2001-01-30', 'Milieu', 2),
-  ('Mac Allister', 'Alexis', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AM.webp', '1998-12-24', 'Milieu', 2),
-  ('Szoboszlai', 'Dominik', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DS.webp', '2000-10-25', 'Milieu', 2),
-  ('Robertson', 'Andrew', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AR.webp', '1994-03-11', 'Défenseur', 2),
-  ('van Dijk', 'Virgil', 'E:\\SIO\\Developpement\\AP\Club Prime\Photo Joueur - Formation\Liverpool\VV.webp', '1991-07-08', 'Défenseur', 2),
-  ('Matip', 'Joel', 'E:\\SIO\\Developpement\\AP\\Club Prime\Photo Joueur - Formation\Liverpool\JM.webp', '1991-08-08', 'Défenseur', 2),
-  ('Alexander-Arnold', 'Trent', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\TA.webp', '1998-10-07', 'Défenseur', 2);
-  ('Becker', 'Alisson', 'Gardien','E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AB.webp','1992-10-02', 2)
+  ('Díaz', 'Luis', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\LD.webp', '1997-01-13', 'Attaquant', 2),
+  ('Núñez', 'Darwin', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DN.webp', '1999-06-24', 'Attaquant', 2),
+  ('Salah', 'Mohamed', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\MS.webp', '1992-06-15', 'Attaquant', 2),
+  ('Jones', 'Curtis', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\CJ.webp', '2001-01-30', 'Milieu', 2),
+  ('Mac Allister', 'Alexis', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AM.webp', '1998-12-24', 'Milieu', 2),
+  ('Szoboszlai', 'Dominik', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DS.webp', '2000-10-25', 'Milieu', 2),
+  ('Robertson', 'Andrew', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AR.webp', '1994-03-11', 'Défenseur', 2),
+  ('van Dijk', 'Virgil', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\VV.webp', '1991-07-08', 'Défenseur', 2),
+  ('Matip', 'Joel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\JM.webp', '1991-08-08', 'Défenseur', 2),
+  ('Alexander-Arnold', 'Trent', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\TA.webp', '1998-10-07', 'Défenseur', 2),
+  ('Becker', 'Alisson', 'Gardien','E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AB.webp','1992-10-02','Gardien' 2);
 
 INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
 VALUES 
