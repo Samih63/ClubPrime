@@ -274,3 +274,6 @@ SELECT * FROM Club;
 
 -- Sélectionnez tous les enregistrements de la table Club
 SELECT * FROM Club;
+
+-- Sélectionnez tous les enregistrements de la table Club
+SELECT * FROM Club;
