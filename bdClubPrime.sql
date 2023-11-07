@@ -164,6 +164,21 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 ('2022', 9, 9),
 ('2022', 10, 10);
 
+
+
+INSERT INTO Classement (club_id, annee, position) VALUES
+('2023', 2, 1),  -- Bayern
+('2023', 4, 2),  -- Liverpool
+('2023', 1, 3),  -- Man City
+('2023', 5, 4),  -- Real Madrid
+('2023', 3, 5),  -- Chelsea
+('2023', 9, 6),  -- Barcelona
+('2023', 6, 7),  -- Paris
+('2023', 8, 8),  -- Juventus
+('2023', 7, 9),  -- Man United
+('2023', 10, 11); -- Roma
+
+
 -- Insertion de données dans la table Obtenir (association entre Clubs et Trophées)
 INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 -- Bayern Munich
@@ -268,21 +283,49 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (11, 3, 4), -- Serie A
 (11, 9, 5), -- Coppa Italia
 (11, 1, 12); -- Serie B
-
--- Insertions dans la table Joueur
-INSERT INTO Joueur (nom, prenom, poste, idClub)
+     
+INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
-  ('Ulreich', 'Sven', 'Gardien', 1),
-  ('Davies', 'Alphonso', 'Défenseur', 1),
-  ('Min-Jae', 'Kim', 'Défenseur', 1),
-  ('Upamecano', 'Dayot', 'Défenseur', 1),
-  ('Mazraoui', 'Noussair', 'Défenseur', 1),
-  ('Kimmich', 'Joshua', 'Milieu', 1),
-  ('Goretzka', 'Leon', 'Milieu', 1),
-  ('Coman', 'Kingsley', 'Attaquant', 1),
-  ('Musiala', 'Jamal', 'Milieu', 1),
-  ('Sané', 'Leroy', 'Attaquant', 1),
-  ('Kane', 'Harry', 'Attaquant', 1);
+  ('Ulreich', 'Sven', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\SU.webp', '1988-08-03', 'Gardien', 1),
+  ('Davies', 'Alphonso', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\AD.webp', '2000-11-02', 'Défenseur', 1),
+  ('Kim', 'Min-Jae', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\KM.webp', '1996-11-15', 'Défenseur', 1),
+  ('Upamecano', 'Dayot', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\DU.webp', '1998-10-27', 'Défenseur', 1),
+  ('Mazraoui', 'Noussair', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\NM.webp', '1997-11-14', 'Défenseur', 1),
+  ('Kimmich', 'Joshua', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\JK.webp', '1995-02-08', 'Milieu', 1),
+  ('Goretzka', 'Leon', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\LG.webp', '1995-02-06', 'Milieu', 1),
+  ('Coman', 'Kingsley', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\KC.webp', '1996-06-13', 'Attaquant', 1),
+  ('Musiala', 'Jamal', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\JM.webp', '2003-02-26', 'Milieu', 1),
+  ('Sané', 'Leroy', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\LS.webp', '1996-01-11', 'Attaquant', 1),
+  ('Kane', 'Harry', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\HK.webp', '1993-07-28', 'Attaquant', 1);
+
+INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
+VALUES
+  ('Díaz', 'Luis', NULL, '1997-01-13', 'Attaquant', 2),
+  ('Núñez', 'Darwin', NULL, '1999-06-24', 'Attaquant', 2),
+  ('Salah', 'Mohamed', NULL, '1992-06-15', 'Attaquant', 2),
+  ('Jones', 'Curtis', NULL, '2001-01-30', 'Milieu', 2),
+  ('Mac Allister', 'Alexis', NULL, '1998-12-24', 'Milieu', 2),
+  ('Szoboszlai', 'Dominik', NULL, '2000-10-25', 'Milieu', 2),
+  ('Robertson', 'Andrew', NULL, '1994-03-11', 'Défenseur', 2),
+  ('van Dijk', 'Virgil', NULL, '1991-07-08', 'Défenseur', 2),
+  ('Matip', 'Joel', NULL, '1991-08-08', 'Défenseur', 2),
+  ('Alexander-Arnold', 'Trent', NULL, '1998-10-07', 'Défenseur', 2);
+
+INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
+VALUES
+  ('Díaz', 'Luis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\LD.webp', '1997-01-13', 'Attaquant', 2),
+  ('Núñez', 'Darwin', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\DN.webp', '1999-06-24', 'Attaquant', 2),
+  ('Salah', 'Mohamed', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\MS.webp', '1992-06-15', 'Attaquant', 2),
+  ('Jones', 'Curtis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\CJ.webp', '2001-01-30', 'Milieu', 2),
+  ('Mac Allister', 'Alexis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\AM.webp', '1998-12-24', 'Milieu', 2),
+  ('Szoboszlai', 'Dominik', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\DS.webp', '2000-10-25', 'Milieu', 2),
+  ('Robertson', 'Andrew', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\AR.webp', '1994-03-11', 'Défenseur', 2),
+  ('van Dijk', 'Virgil', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\VV.webp', '1991-07-08', 'Défenseur', 2),
+  ('Matip', 'Joel', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\JM.webp', '1991-08-08', 'Défenseur', 2),
+  ('Alexander-Arnold', 'Trent', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\TA.webp', '1998-10-07', 'Défenseur', 2);
+  
+
+
 
 
 -- Sélectionnez tous les enregistrements de la table Club
