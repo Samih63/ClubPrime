@@ -114,7 +114,7 @@ INSERT INTO Club (nom, stade, descr, dateCrea, idLigue) VALUES
 ('Bayern', 'Allianz Arena', 'Club de football basé à Munich, Allemagne', '1900-02-27', 1),
 ('Liverpool', 'Anfield', 'Club de football historique de la Premier League anglaise', '1892-03-15', 2),
 ('Man City', 'Etihad Stadium', 'Club de football de Manchester jouant en Premier League', '1880-04-16', 2),
-('Real Madrid', 'Santiago Bernabéu', 'Club de football espagnol de la ville de Madrid', '1902-03-06', 3),
+('Man City', 'Santiago Bernabéu', 'Club de football espagnol de la ville de Madrid', '1902-03-06', 3),
 ('Chelsea', 'Stamford Bridge', 'Club de football londonien de Premier League', '1905-03-10', 2),
 ('Barcelona', 'Camp Nou', 'Club de football de Barcelone un des plus reconnus au monde', '1899-11-29', 3),
 ('PSG', 'Parc des Princes', 'Club de football français basé à Paris', '1970-08-12', 4),
@@ -170,7 +170,7 @@ INSERT INTO Classement (club_id, annee, position) VALUES
 ('2023', 2, 1),  -- Bayern
 ('2023', 4, 2),  -- Liverpool
 ('2023', 1, 3),  -- Man City
-('2023', 5, 4),  -- Real Madrid
+('2023', 5, 4),  -- Man City
 ('2023', 3, 5),  -- Chelsea
 ('2023', 9, 6),  -- Barcelona
 ('2023', 6, 7),  -- Paris
@@ -211,7 +211,7 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (3, 8, 9), -- League Cup
 (3, 6, 10), -- Community Shield (Angleterre)
 
--- Real Madrid
+-- Man City
 (4, 14, 17), -- Ligue des Champions
 (4, 2, 18), -- UEFA Europa League
 (4, 35, 14), -- Liga
@@ -314,17 +314,17 @@ VALUES
 
 INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
 VALUES 
-  ('Haaland', 'Erling', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\HE.webp', 'Attaquant', '2000-07-21', 3),
-  ('Grealish', 'Jack', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JG.webp', 'Milieu', '1995-09-10', 3),
-  ('Alvarez', 'Julian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JA.webp', 'Attaquant', '2000-01-31', 3),
-  ('Foden', 'Phil', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\PF.webp', 'Milieu', '2000-05-28', 3),
-  ('Kovačić', 'Mateo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\MK.webp', 'Milieu', '1994-05-06', 3),
-  ('Rodri', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\R.webp', 'Milieu', '1996-06-22', 3),
-  ('Gvardiol', 'Josko', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JG2.webp', 'Défenseur', '2002-01-23', 3),
-  ('Dias', 'Rúben', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\RD.webp', 'Défenseur', '1997-05-14', 3),
-  ('Akanji', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\MA.webp', 'Défenseur', '1995-07-19', 3),
-  ('Walker', 'Kyle', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\KW.webp', 'Défenseur', '1990-05-28', 3),
-  ('Ederson', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\E.webp', 'Gardien', '1993-08-17', 3);
+  ('Haaland', 'Erling', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\HE.webp', 'Attaquant', '2000-07-21', 3),
+  ('Grealish', 'Jack', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\JG.webp', 'Milieu', '1995-09-10', 3),
+  ('Alvarez', 'Julian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\JA.webp', 'Attaquant', '2000-01-31', 3),
+  ('Foden', 'Phil', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\PF.webp', 'Milieu', '2000-05-28', 3),
+  ('Kovačić', 'Mateo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\MK.webp', 'Milieu', '1994-05-06', 3),
+  ('Rodri', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\R.webp', 'Milieu', '1996-06-22', 3),
+  ('Gvardiol', 'Josko', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\JG2.webp', 'Défenseur', '2002-01-23', 3),
+  ('Dias', 'Rúben', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\RD.webp', 'Défenseur', '1997-05-14', 3),
+  ('Akanji', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\MA.webp', 'Défenseur', '1995-07-19', 3),
+  ('Walker', 'Kyle', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\KW.webp', 'Défenseur', '1990-05-28', 3),
+  ('Ederson', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\E.webp', 'Gardien', '1993-08-17', 3);
 
 
 
