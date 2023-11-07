@@ -300,19 +300,6 @@ VALUES
 
 INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
-  ('Díaz', 'Luis', NULL, '1997-01-13', 'Attaquant', 2),
-  ('Núñez', 'Darwin', NULL, '1999-06-24', 'Attaquant', 2),
-  ('Salah', 'Mohamed', NULL, '1992-06-15', 'Attaquant', 2),
-  ('Jones', 'Curtis', NULL, '2001-01-30', 'Milieu', 2),
-  ('Mac Allister', 'Alexis', NULL, '1998-12-24', 'Milieu', 2),
-  ('Szoboszlai', 'Dominik', NULL, '2000-10-25', 'Milieu', 2),
-  ('Robertson', 'Andrew', NULL, '1994-03-11', 'Défenseur', 2),
-  ('van Dijk', 'Virgil', NULL, '1991-07-08', 'Défenseur', 2),
-  ('Matip', 'Joel', NULL, '1991-08-08', 'Défenseur', 2),
-  ('Alexander-Arnold', 'Trent', NULL, '1998-10-07', 'Défenseur', 2);
-
-INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
-VALUES
   ('Díaz', 'Luis', 'E:\\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\LD.webp', '1997-01-13', 'Attaquant', 2),
   ('Núñez', 'Darwin', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DN.webp', '1999-06-24', 'Attaquant', 2),
   ('Salah', 'Mohamed', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\MS.webp', '1992-06-15', 'Attaquant', 2),
