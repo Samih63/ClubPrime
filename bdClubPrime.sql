@@ -354,7 +354,7 @@ VALUES
   ('Skriniar', 'Milan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe8\MS.webp', 'Défenseur', '1995-02-11', 7),
   ('Marquinhos', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe9\M.webp', 'Défenseur', '1994-05-14', 7),
   ('Hakimi', 'Achraf', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe10\AH.webp', 'Défenseur', '1998-11-04', 7),
-  ('Donnarumma', 'Gianluigi', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe11\GD.webp', 'Gardien', NULL, 7);
+  ('Donnarumma', 'Gianluigi', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe11\GD.webp', 'Gardien', '1999-02-25', 7);
 
 INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
 VALUES
@@ -363,12 +363,12 @@ VALUES
   ('Yamal', 'Lamine', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\LY.webp', 'Attaquant', '2007-07-10', 6),
   ('Gündoğan', 'İlkay', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\IG.webp', 'Milieu', '1990-10-24', 6),
   ('Romeu', 'Oriol', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\OR.webp', 'Milieu', '1991-09-24', 6),
-  ('Gavi', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\G.webp', 'Milieu', '2004-08-05', 6),
-  ('Baldé', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\AB.webp', 'Défenseur', '2003-10-18', 6),
+  ('Gavi', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\PMPG.webp', 'Milieu', '2004-08-05', 6),
+  ('Baldé', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\ABM.webp', 'Défenseur', '2003-10-18', 6),
   ('Christensen', 'Andreas', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\AC.webp', 'Défenseur', '1996-04-10', 6),
   ('Koundé', 'Jules', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JK.webp', 'Défenseur', '1998-11-12', 6),
   ('Cancelo', 'João', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JC.webp', 'Défenseur', '1994-05-27', 6),
-  ('ter Stegen', 'Marc-André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\MAS.webp', 'Gardien', NULL, 6);
+  ('ter Stegen', 'Marc-André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\MAT.webp', 'Gardien', '1992-04-30', 6);
 
 
 
