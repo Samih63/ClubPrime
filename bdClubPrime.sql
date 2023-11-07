@@ -312,22 +312,20 @@ VALUES
   ('Alexander-Arnold', 'Trent', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\TA.webp', '1998-10-07', 'Défenseur', 2);
   ('Becker', 'Alisson', 'Gardien','E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AB.webp','1992-10-02', 2)
 
-INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
-VALUES
+INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
+VALUES 
+  ('Haaland', 'Erling', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\HE.webp', 'Attaquant', '2000-07-21', 3),
+  ('Grealish', 'Jack', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JG.webp', 'Milieu', '1995-09-10', 3),
+  ('Alvarez', 'Julian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JA.webp', 'Attaquant', '2000-01-31', 3),
+  ('Foden', 'Phil', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\PF.webp', 'Milieu', '2000-05-28', 3),
+  ('Kovačić', 'Mateo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\MK.webp', 'Milieu', '1994-05-06', 3),
+  ('Rodri', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\R.webp', 'Milieu', '1996-06-22', 3),
+  ('Gvardiol', 'Josko', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JG2.webp', 'Défenseur', '2002-01-23', 3),
+  ('Dias', 'Rúben', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\RD.webp', 'Défenseur', '1997-05-14', 3),
+  ('Akanji', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\MA.webp', 'Défenseur', '1995-07-19', 3),
+  ('Walker', 'Kyle', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\KW.webp', 'Défenseur', '1990-05-28', 3),
+  ('Ederson', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\E.webp', 'Gardien', '1993-08-17', 3);
 
--- Insertions dans la table Joueur pour la nouvelle composition d'équipe avec dates de naissance
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Haaland', 'Erling', 'Attaquant', '2000-07-21', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Grealish', 'Jack', 'Milieu', '1995-09-10', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Alvarez', 'Julian', 'Attaquant', '2000-01-31', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Foden', 'Phil', 'Milieu', '2000-05-28', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Kovačić', 'Mateo', 'Milieu', '1994-05-06', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Rodri', NULL, 'Milieu', '1996-06-22', 3); -- Rodri est souvent connu uniquement par ce nom
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Gvardiol', 'Josko', 'Défenseur', '2002-01-23', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Dias', 'Rúben', 'Défenseur', '1997-05-14', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Akanji', 'Manuel', 'Défenseur', '1995-07-19', 3);
-INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Walker', 'Kyle', 'Défenseur', '1990-05-28', 3);
--- La date de naissance de Ederson n'a pas été trouvée, donc cette ligne reste inchangée
-INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Ederson', NULL, 'Gardien', 3);
 
 
 
