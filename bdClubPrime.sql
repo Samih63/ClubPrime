@@ -286,17 +286,17 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
      
 INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
-  ('Ulreich', 'Sven', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\SU.webp', '1988-08-03', 'Gardien', 1),
-  ('Davies', 'Alphonso', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\AD.webp', '2000-11-02', 'Défenseur', 1),
-  ('Kim', 'Min-Jae', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\KM.webp', '1996-11-15', 'Défenseur', 1),
-  ('Upamecano', 'Dayot', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\DU.webp', '1998-10-27', 'Défenseur', 1),
-  ('Mazraoui', 'Noussair', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\NM.webp', '1997-11-14', 'Défenseur', 1),
-  ('Kimmich', 'Joshua', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\JK.webp', '1995-02-08', 'Milieu', 1),
-  ('Goretzka', 'Leon', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\LG.webp', '1995-02-06', 'Milieu', 1),
-  ('Coman', 'Kingsley', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\KC.webp', '1996-06-13', 'Attaquant', 1),
-  ('Musiala', 'Jamal', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\JM.webp', '2003-02-26', 'Milieu', 1),
-  ('Sané', 'Leroy', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\LS.webp', '1996-01-11', 'Attaquant', 1),
-  ('Kane', 'Harry', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Bayern\\HK.webp', '1993-07-28', 'Attaquant', 1);
+  ('Ulreich', 'Sven', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\SU.webp', '1988-08-03', 'Gardien', 1),
+  ('Davies', 'Alphonso', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\AD.webp', '2000-11-02', 'Défenseur', 1),
+  ('Kim', 'Min-Jae', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\MJK.webp', '1996-11-15', 'Défenseur', 1),
+  ('Upamecano', 'Dayot', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\DU.webp', '1998-10-27', 'Défenseur', 1),
+  ('Mazraoui', 'Noussair', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\NM.webp', '1997-11-14', 'Défenseur', 1),
+  ('Kimmich', 'Joshua', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\JK.webp', '1995-02-08', 'Milieu', 1),
+  ('Goretzka', 'Leon', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\LG.webp', '1995-02-06', 'Milieu', 1),
+  ('Coman', 'Kingsley', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\KC.webp', '1996-06-13', 'Attaquant', 1),
+  ('Musiala', 'Jamal', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\JM.webp', '2003-02-26', 'Milieu', 1),
+  ('Sané', 'Leroy', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\LS.webp', '1996-01-11', 'Attaquant', 1),
+  ('Kane', 'Harry', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Bayern\HK.webp', '1993-07-28', 'Attaquant', 1);
 
 INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
@@ -313,17 +313,34 @@ VALUES
 
 INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
 VALUES
-  ('Díaz', 'Luis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\LD.webp', '1997-01-13', 'Attaquant', 2),
-  ('Núñez', 'Darwin', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\DN.webp', '1999-06-24', 'Attaquant', 2),
-  ('Salah', 'Mohamed', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\MS.webp', '1992-06-15', 'Attaquant', 2),
-  ('Jones', 'Curtis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\CJ.webp', '2001-01-30', 'Milieu', 2),
-  ('Mac Allister', 'Alexis', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\AM.webp', '1998-12-24', 'Milieu', 2),
-  ('Szoboszlai', 'Dominik', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\DS.webp', '2000-10-25', 'Milieu', 2),
-  ('Robertson', 'Andrew', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\AR.webp', '1994-03-11', 'Défenseur', 2),
-  ('van Dijk', 'Virgil', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\VV.webp', '1991-07-08', 'Défenseur', 2),
-  ('Matip', 'Joel', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\JM.webp', '1991-08-08', 'Défenseur', 2),
-  ('Alexander-Arnold', 'Trent', 'E:\\SIO\\Developpement\\AP\\Club Prime\\Photo Joueur - Formation\\Liverpool\\TA.webp', '1998-10-07', 'Défenseur', 2);
-  
+  ('Díaz', 'Luis', 'E:\\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\LD.webp', '1997-01-13', 'Attaquant', 2),
+  ('Núñez', 'Darwin', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DN.webp', '1999-06-24', 'Attaquant', 2),
+  ('Salah', 'Mohamed', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\MS.webp', '1992-06-15', 'Attaquant', 2),
+  ('Jones', 'Curtis', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\CJ.webp', '2001-01-30', 'Milieu', 2),
+  ('Mac Allister', 'Alexis', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AM.webp', '1998-12-24', 'Milieu', 2),
+  ('Szoboszlai', 'Dominik', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\DS.webp', '2000-10-25', 'Milieu', 2),
+  ('Robertson', 'Andrew', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AR.webp', '1994-03-11', 'Défenseur', 2),
+  ('van Dijk', 'Virgil', 'E:\\SIO\\Developpement\\AP\Club Prime\Photo Joueur - Formation\Liverpool\VV.webp', '1991-07-08', 'Défenseur', 2),
+  ('Matip', 'Joel', 'E:\\SIO\\Developpement\\AP\\Club Prime\Photo Joueur - Formation\Liverpool\JM.webp', '1991-08-08', 'Défenseur', 2),
+  ('Alexander-Arnold', 'Trent', 'E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\TA.webp', '1998-10-07', 'Défenseur', 2);
+  ('Becker', 'Alisson', 'Gardien','E:\\SIO\\Developpement\AP\Club Prime\Photo Joueur - Formation\Liverpool\AB.webp','1992-10-02', 2)
+
+INSERT INTO Joueur (nom, prenom, photo, dateNais, poste, idClub)
+VALUES
+
+-- Insertions dans la table Joueur pour la nouvelle composition d'équipe avec dates de naissance
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Haaland', 'Erling', 'Attaquant', '2000-07-21', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Grealish', 'Jack', 'Milieu', '1995-09-10', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Alvarez', 'Julian', 'Attaquant', '2000-01-31', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Foden', 'Phil', 'Milieu', '2000-05-28', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Kovačić', 'Mateo', 'Milieu', '1994-05-06', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Rodri', NULL, 'Milieu', '1996-06-22', 3); -- Rodri est souvent connu uniquement par ce nom
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Gvardiol', 'Josko', 'Défenseur', '2002-01-23', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Dias', 'Rúben', 'Défenseur', '1997-05-14', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Akanji', 'Manuel', 'Défenseur', '1995-07-19', 3);
+INSERT INTO Joueur (nom, prenom, poste, dateNaissance, idClub) VALUES ('Walker', 'Kyle', 'Défenseur', '1990-05-28', 3);
+-- La date de naissance de Ederson n'a pas été trouvée, donc cette ligne reste inchangée
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Ederson', NULL, 'Gardien', 3);
 
 
 
