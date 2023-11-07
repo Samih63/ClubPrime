@@ -320,7 +320,7 @@ VALUES
   ('Foden', 'Phil', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\PF.webp', 'Milieu', '2000-05-28', 3),
   ('Kovačić', 'Mateo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\MK.webp', 'Milieu', '1994-05-06', 3),
   ('Rodri', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\HR.webp', 'Milieu', '1996-06-22', 3),
-  ('Gvardiol', 'Josko', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\JG2.webp', 'Défenseur', '2002-01-23', 3),
+  ('Gvardiol', 'Josko', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\JG2.webp', 'Défenseur', '2002-01-23', 3),4
   ('Dias', 'Rúben', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\RD.webp', 'Défenseur', '1997-05-14', 3),
   ('Akanji', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\MA.webp', 'Défenseur', '1995-07-19', 3),
   ('Walker', 'Kyle', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man City\KW.webp', 'Défenseur', '1990-05-28', 3),
@@ -328,17 +328,17 @@ VALUES
 
 INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
 VALUES
-    ('Vinicius', 'Junior', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\VJ.webp', 'Attaquant', '2000-07-12', 4),
-    ('Joselu', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\J.webp', 'Attaquant', '1990-03-27', 4),
-    ('Bellingham', 'Jude', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\JB.webp', 'Milieu', '2003-06-29', 4),
-    ('Camavinga', 'Eduardo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\EC.webp', 'Milieu', '2002-11-10', 4),
-    ('Tchouameni', 'Aurélien', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\AT.webp', 'Milieu', '2000-01-27', 4),
-    ('Valverde', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\FV.webp', 'Milieu', '1998-07-22', 4),
-    ('Garcia', 'Fran', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\FG.webp', 'Défenseur', '1999-08-14', 4),
-    ('Alaba', 'David', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\DA.webp', 'Défenseur', '1992-06-24', 4),
-    ('Rudiger', 'Antonio', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\AR.webp', 'Défenseur', '1993-03-03', 4),
-    ('Carvajal', 'Dani', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\DC.webp', 'Défenseur', '1992-01-11', 4),
-    ('Kepa', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\K.webp', 'Gardien', '1994-10-03', 4);
+    ('Vinicius', 'Junior', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\VJ.webp', 'Attaquant', '2000-07-12', 4),
+    ('Joselu', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\J.webp', 'Attaquant', '1990-03-27', 4),
+    ('Bellingham', 'Jude', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\JB.webp', 'Milieu', '2003-06-29', 4),
+    ('Camavinga', 'Eduardo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\EC.webp', 'Milieu', '2002-11-10', 4),
+    ('Tchouameni', 'Aurélien', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\AT.webp', 'Milieu', '2000-01-27', 4),
+    ('Valverde', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\FV.webp', 'Milieu', '1998-07-22', 4),
+    ('Garcia', 'Fran', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\FG.webp', 'Défenseur', '1999-08-14', 4),
+    ('Alaba', 'David', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\DA.webp', 'Défenseur', '1992-06-24', 4),
+    ('Rudiger', 'Antonio', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\AR.webp', 'Défenseur', '1993-03-03', 4),
+    ('Carvajal', 'Dani', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\DC.webp', 'Défenseur', '1992-01-11', 4),
+    ('Kepa', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Real Madrid\K.webp', 'Gardien', '1994-10-03', 4);
 
 
 
