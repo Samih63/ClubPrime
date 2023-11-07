@@ -114,7 +114,7 @@ INSERT INTO Club (nom, stade, descr, dateCrea, idLigue) VALUES
 ('Bayern', 'Allianz Arena', 'Club de football basé à Munich, Allemagne', '1900-02-27', 1),
 ('Liverpool', 'Anfield', 'Club de football historique de la Premier League anglaise', '1892-03-15', 2),
 ('Man City', 'Etihad Stadium', 'Club de football de Manchester jouant en Premier League', '1880-04-16', 2),
-('Man City', 'Santiago Bernabéu', 'Club de football espagnol de la ville de Madrid', '1902-03-06', 3),
+('Real Madrid', 'Santiago Bernabéu', 'Club de football espagnol de la ville de Madrid', '1902-03-06', 3),
 ('Chelsea', 'Stamford Bridge', 'Club de football londonien de Premier League', '1905-03-10', 2),
 ('Barcelona', 'Camp Nou', 'Club de football de Barcelone un des plus reconnus au monde', '1899-11-29', 3),
 ('PSG', 'Parc des Princes', 'Club de football français basé à Paris', '1970-08-12', 4),
@@ -347,12 +347,26 @@ VALUES
   ('Dembélé', 'Ousmane', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\OD.webp', 'Attaquant', '1997-05-15', 3),
   ('Vitinha', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\V.webp', 'Milieu', '2000-02-13', 4),
   ('Ugarte', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe5\MU.webp', 'Milieu', '2001-04-11', 5),
-  ('Zaire-Emery', 'Warren', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe6\WZE.webp', 'Milieu', '2006-03-08', 6),
+  ('Zaire-Emery', 'Warren', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\WZE.webp', 'Milieu', '2006-03-08', 6),
   ('Hernández', 'Lucas', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe7\LH.webp', 'Défenseur', '1996-02-14', 7),
   ('Skriniar', 'Milan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe8\MS.webp', 'Défenseur', '1995-02-11', 8),
   ('Marquinhos', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe9\M.webp', 'Défenseur', '1994-05-14', 9),
   ('Hakimi', 'Achraf', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe10\AH.webp', 'Défenseur', '1998-11-04', 10),
   ('Donnarumma', 'Gianluigi', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe11\GD.webp', 'Gardien', NULL, 11);
+
+INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
+VALUES
+  ('Félix', 'João', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JF.webp', 'Attaquant', '1999-11-10', 6),
+  ('Lewandowski', 'Robert', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\RL.webp', 'Attaquant', '1988-08-21', 6),
+  ('Yamal', 'Lamine', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\LY.webp', 'Attaquant', '2007-07-10', 6),
+  ('Gündoğan', 'İlkay', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\IG.webp', 'Milieu', '1990-10-24', 6),
+  ('Romeu', 'Oriol', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\OR.webp', 'Milieu', '1991-09-24', 6),
+  ('Gavi', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\G.webp', 'Milieu', '2004-08-05', 6),
+  ('Baldé', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\AB.webp', 'Défenseur', '2003-10-18', 6),
+  ('Christensen', 'Andreas', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\AC.webp', 'Défenseur', '1996-04-10', 6),
+  ('Koundé', 'Jules', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JK.webp', 'Défenseur', '1998-11-12', 6),
+  ('Cancelo', 'João', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JC.webp', 'Défenseur', '1994-05-27', 6),
+  ('ter Stegen', 'Marc-André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\MAS.webp', 'Gardien', NULL, 6);
 
 
 
