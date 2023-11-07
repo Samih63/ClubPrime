@@ -165,7 +165,7 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 ('2022', 10, 10);
 
 -- Insertion de données dans la table Obtenir (association entre Clubs et Trophées)
-IINSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
+INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 -- Bayern Munich
 (1, 6, 17), -- Ligue des Champions
 (1, 1, 18), -- UEFA Europa League
