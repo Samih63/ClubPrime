@@ -370,6 +370,17 @@ VALUES
   ('Cancelo', 'João', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\JC.webp', 'Défenseur', '1994-05-27', 6),
   ('ter Stegen', 'Marc-André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\MAT.webp', 'Gardien', '1992-04-30', 6);
 
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Lukaku', 'Romelu', 'Attaquant', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Dybala', 'Paulo', 'Attaquant', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Zalewski', 'Nicola', 'Milieu', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Aouar', 'Houssem', 'Milieu', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Paredes', 'Leandro', 'Milieu', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Cristante', 'Bryan', 'Milieu', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Kristensen', 'Rasmus', 'Défenseur', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Nidcka', 'Emil', 'Défenseur', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Llorente', 'Diego', 'Défenseur', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Mancini', 'Gianluca', 'Défenseur', 1);
+INSERT INTO Joueur (nom, prenom, poste, idClub) VALUES ('Patricio', 'Rui', 'Gardien', 1);
 
 
 -- Sélectionnez tous les enregistrements de la table Club
