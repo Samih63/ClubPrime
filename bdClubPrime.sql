@@ -17,6 +17,8 @@ CREATE TABLE IF NOT EXISTS Club (
     idLigue INT,
     descrStade VARCHAR(277),
     photoStade BLOB,
+    entraineur VARCHAR(255),
+    photoEntraineur BLOB,
     FOREIGN KEY (idLigue) REFERENCES Ligue(id)
 );
 
@@ -112,8 +114,8 @@ INSERT INTO Ligue (nom, idPays) VALUES
 ('Serie A', 5);
 
 -- Insertion de données dans la table Club
-INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade) VALUES
-('Bayern', 'Allianz Arena', 'Club de football basé à Munich, Allemagne', '1900-02-27', 1),
+INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, entraineur, photoEntraineur) VALUES
+('Bayern', 'Allianz Arena', 'Club de football basé à Munich, Allemagne', '1900-02-27', 1, ),
 ('Liverpool', 'Anfield', 'Club de football historique de la Premier League anglaise', '1892-03-17', 2),
 ('Man City', 'Etihad Stadium', 'Club de football de Manchester jouant en Premier League', '1880-04-16', 2),
 ('Real Madrid', 'Santiago Bernabéu', 'Club de football espagnol de la ville de Madrid', '1902-03-06', 3),
