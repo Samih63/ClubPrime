@@ -123,7 +123,7 @@ INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, 
 ('Chelsea', 'Stamford Bridge', 'Club de football londonien de Premier League', '1907-03-10', 2),
 ('Barcelona', 'Camp Nou', 'Club de football de Barcelone un des plus reconnus au monde', '1899-11-29', 3),
 ('PSG', 'Parc des Princes', 'Club de football français basé à Paris', '1970-08-12', 4),
-('Juventus', 'Allianz Stadium', 'Club de football italien situé à Turin', '1897-11-01', 7),
+('Atletico Madrid', 'Allianz Stadium', 'Club de football italien situé à Turin', '1897-11-01', 7),
 ('Atlético de Madrid', 'Wanda Metropolitano', 'Club de football basé à Madrid, Espagne', '1903-04-27', 3),
 ('Man United', 'Old Trafford', 'Club de football anglais basé à Manchester, très populaire mondialement', '1878-01-01', 2),
 ('Roma', 'Stadio Olimpico', 'Club de football basé à Rome, Italie', '1927-07-22', 7);
@@ -179,7 +179,7 @@ INSERT INTO Classement (club_id, annee, position) VALUES
 ('2023', 3, 7),  -- Chelsea
 ('2023', 9, 7),  -- Barcelona
 ('2023', 7, 7),  -- Paris
-('2023', 8, 8),  -- Juventus
+('2023', 8, 8),  -- Atletico Madrid
 ('2023', 7, 9),  -- Man United
 ('2023', 10, 11); -- Roma
 
@@ -254,7 +254,7 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (7, 9, 12), -- Coupe de la Ligue
 (7, 1, 17), -- Ligue des Champions
 
--- Juventus
+-- Atletico Madrid
 (8, 2, 17), -- UEFA Champions League
 (8, 3, 18), -- UEFA Europa League
 (8, 9, 7), -- Supercoppa Italiana
@@ -382,56 +382,57 @@ VALUES
   ('Mbappé', 'Kylian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\KM.webp', 'AT', '1998-12-20', 7),
   ('Ramos', 'Goncalo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\GR.webp', 'AT', '2001-07-20', 7),
   ('Dembélé', 'Ousmane', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\OD.webp', 'AT', '1997-07-17', 7),
-  ('Vitinha', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe4\V.webp', 'M', '2000-02-13', 7),
-  ('Ugarte', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe7\MU.webp', 'M', '2001-04-11', 7),
-  ('Zaire-Emery', 'Warren', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Barcelone\WZE.webp', 'M', '2007-03-08', 7),
-  ('Hernández', 'Lucas', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe7\LH.webp', 'D', '1997-02-14', 7),
-  ('Skriniar', 'Milan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe8\MS.webp', 'D', '1997-02-11', 7),
-  ('Marquinhos', '', 'E\E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe9\M.webp', 'D', '1994-07-14', 7),
-  ('Hakimi', 'Achraf', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe10\AH.webp', 'D', '1998-11-04', 7),
-  ('Donnarumma', 'Gianluigi', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Equipe11\GD.webp', 'G', '1999-02-27', 7);
+  ('Vitinha', '', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\V.webp', 'M', '2000-02-13', 7),
+  ('Ugarte', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\MU.webp', 'M', '2001-04-11', 7),
+  ('Zaire-Emery', 'Warren', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\WZE.webp', 'M', '2007-03-08', 7),
+  ('Hernández', 'Lucas', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\LH.webp', 'D', '1997-02-14', 7),
+  ('Skriniar', 'Milan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\MS.webp', 'D', '1997-02-11', 7),
+  ('Marquinhos', '', 'E\E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\M.webp', 'D', '1994-07-14', 7),
+  ('Hakimi', 'Achraf', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\AH.webp', 'D', '1998-11-04', 7),
+  ('Donnarumma', 'Gianluigi', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\PSG\GD.webp', 'G', '1999-02-27', 7);
 
-INSERT INTO Joueur (nom, prenom, photo, poste, idClub)
-VALUES
-    ('Chiesa', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\CF.webp', 'AT', 8),
-    ('Kostić', 'Filip', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FK.webp', 'M', 8),
-    ('Rabiot', 'Adrien', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\AR.webp', 'M', 8),
-    ('Locatelli', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\ML.webp', 'M', 8),
-    ('Miretti', 'Fabio', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FM.webp', 'M', 8),
-    ('McKennie', 'Weston', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\WM.webp', 'M', 8),
-    ('Danilo', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\D.webp', 'D', 8),
-    ('Bremer', 'Gleison', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\BG.webp', 'D', 8),
-    ('Gatti', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FG.webp', 'D', 8),
-    ('Vlahović', 'Dušan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\DV.webp', 'AT', 8),
-    ('Szczęsny', 'Wojciech', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\SW.webp', 'G', 8);
 
-INSERT INTO Joueur (nom, prenom, photo, poste, idClub)
-VALUES
-    ('Morata', 'Álvaro', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\MA.webp', 'AT', 9),
-    ('Ñíguez', 'Saúl', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\NS.webp', 'M', 9),
-    ('Koke', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\K.webp', 'M', 9),
-    ('Griezmann', 'Antoine', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\GA.webp', 'AT', 9),
-    ('Llorente', 'Marcos', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\LM.webp', 'M', 9),
-    ('Riquelme', 'Rodrigo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\RR.webp', 'M', 9),
-    ('Molina', 'Nahuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\MN.webp', 'D', 9),
-    ('Hermoso', 'Mario', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\HM.webp', 'D', 9),
-    ('Witsel', 'Axel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\WA.webp', 'M', 9),
-    ('Savić', 'Stefan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\SS.webp', 'D', 9),
-    ('Oblak', 'Jan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\JO.webp', 'G', 9);
 
-INSERT INTO Joueur (nom, prenom, photo, poste, idClub)
+INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
 VALUES
-    ('Rashford', 'Marcus', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\RM.webp', 'AT', 10),
-    ('Fernandes', 'Bruno', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FB.webp', 'M', 10),
-    ('Antony', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\A.webp', 'AT', 10),
-    ('Eriksen', 'Christian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\CE.webp', 'M', 10),
-    ('Casemiro', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\C.webp', 'M', 10),
-    ('Dalot', 'Diogo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\DD.webp', 'D', 10),
-    ('Evans', 'Jonny', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\JE.webp', 'D', 10),
-    ('Maguire', 'Harry', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\HM.webp', 'D', 10),
-    ('Wan-Bissaka', 'Aaron', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\WA.webp', 'D', 10),
-    ('Onana', 'André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\AO.webp', 'G', 10),
-    ('Højlund', 'Rasmus', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\HR.webp', 'AT', 10);
+    ('Chiesa', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\CF.webp', 'AT', '1997-10-25', 8),
+    ('Kostić', 'Filip', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FK.webp', 'M', '1992-11-01', 8),
+    ('Rabiot', 'Adrien', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\AR.webp', 'M', '1995-04-03', 8),
+    ('Locatelli', 'Manuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\ML.webp', 'M', '1998-01-08', 8),
+    ('Miretti', 'Fabio', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FM.webp', 'M', '2003-08-03', 8),
+    ('McKennie', 'Weston', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\WM.webp', 'M', '1998-08-28', 8),
+    ('Danilo', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\D.webp', 'D', '1991-07-15', 8),
+    ('Bremer', 'Gleison', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\BG.webp', 'D', '1997-03-18', 8),
+    ('Gatti', 'Federico', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\FG.webp', 'D', '1998-06-24', 8),
+    ('Vlahović', 'Dušan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\DV.webp', 'AT', '2000-01-28', 8),
+    ('Szczęsny', 'Wojciech', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Juventus\SW.webp', 'G', '1990-04-18', 8);
+
+INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
+VALUES
+    ('Morata', 'Álvaro', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\MA.webp', 'AT', '1992-10-23', 9),
+    ('Ñíguez', 'Saúl', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\NS.webp', 'M', '1994-11-21', 9),
+    ('Koke', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\K.webp', 'M', '1992-01-08', 9),
+    ('Griezmann', 'Antoine', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\GA.webp', 'AT', '1991-03-21', 9),
+    ('Llorente', 'Marcos', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\LM.webp', 'M', '1995-01-30', 9),
+    ('Riquelme', 'Rodrigo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\RR.webp', 'M', '2000-04-02', 9),
+    ('Molina', 'Nahuel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\MN.webp', 'D', '1998-04-06', 9),
+    ('Hermoso', 'Mario', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\HM.webp', 'D', '1995-06-18', 9),
+    ('Witsel', 'Axel', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\WA.webp', 'M', '1989-01-12', 9),
+    ('Savić', 'Stefan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\SS.webp', 'D', '1990-01-23', 9),
+    ('Oblak', 'Jan', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Atletico Madrid\JO.webp', 'G', '1993-01-07', 9);
+INSERT INTO Joueur (nom, prenom, photo, poste, dateNaissance, idClub)
+VALUES
+    ('Rashford', 'Marcus', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\RM.webp', 'AT', '1997-10-31', 10),
+    ('Fernandes', 'Bruno', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\FB.webp', 'M', '1994-09-08', 10),
+    ('Antony', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\A.webp', 'AT', '2000-02-24', 10),
+    ('Eriksen', 'Christian', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\CE.webp', 'M', '1992-02-14', 10),
+    ('Casemiro', NULL, 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\C.webp', 'M', '1992-02-23', 10),
+    ('Dalot', 'Diogo', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\DD.webp', 'D', '1999-03-18', 10),
+    ('Evans', 'Jonny', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\JE.webp', 'D', '1988-01-03', 10),
+    ('Maguire', 'Harry', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\HM.webp', 'D', '1993-03-05', 10),
+    ('Wan-Bissaka', 'Aaron', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\WA.webp', 'D', '1997-11-26', 10),
+    ('Onana', 'André', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\AO.webp', 'G', '1996-04-02', 10),
+    ('Højlund', 'Rasmus', 'E:\SIO\Developpement\AP\Club Prime\Photo Joueur - Formation\Man United\HR.webp', 'AT', '2003-02-04', 10);
 
 INSERT INTO Joueur (nom, prenom, photo, poste, idClub)
 VALUES
