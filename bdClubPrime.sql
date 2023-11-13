@@ -52,6 +52,7 @@ CREATE TABLE IF NOT EXISTS Joueur (
 CREATE TABLE IF NOT EXISTS Trophee (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(277) NOT NULL
+    photoTrophee BLOB,
 );
 
 -- Création de la table Classement
@@ -128,7 +129,7 @@ INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, 
 ('Roma', 'Stadio Olimpico', 'Club de football basé à Rome, Italie', '1927-07-22', 5);
 
 -- Insertion de données dans la table Trophee
-INSERT INTO Trophee (nom) VALUES
+INSERT INTO Trophee (nom, photoTrophee) VALUES
 ('Ligue 1'),
 ('Coupe de France'),
 ('Trophée des Champions (France)'),
