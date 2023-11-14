@@ -171,7 +171,7 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 
 
 
-INSERT INTO Classement (club_id, annee, position) VALUES
+INSERT INTO Classement (annee, position, idClub) VALUES
 ('2023', 2, 1),  -- Bayern
 ('2023', 4, 2),  -- Liverpool
 ('2023', 1, 3),  -- Man City
