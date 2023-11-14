@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS Ligue (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(277) NOT NULL,
     idPays INT,
+    photoLigue BLOB,
     FOREIGN KEY (idPays) REFERENCES Pays(id)
 );
 
@@ -107,7 +108,7 @@ INSERT INTO Pays (nom) VALUES
 ('Italie');
 
 -- Insertion de données dans la table Ligue
-INSERT INTO Ligue (nom, idPays) VALUES
+INSERT INTO Ligue (nom, idPays, photoLigue) VALUES
 ('Bundesliga', 1),
 ('Premier League', 2),
 ('La Liga', 3),
