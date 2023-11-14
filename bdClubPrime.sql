@@ -479,13 +479,12 @@ INSERT INTO Logo VALUES
     (1941, 4, '1941-1997', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Real/1941-1997.png'),
     (1997, 4, '1997-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Real/1997-Actuel.png'),
 
-    (1905, 5, '1905-1906', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1905-1906.gif'),
-    (1906, 5, '1906-1951', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1906-1951.gif'),
-    (1952, 5, '1952-1953', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1952-1953.gif'),
-    (1953, 5, '1953-1986', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1953-1986.gif'),
-    (1986, 5, '1986-2002', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1986-2002.gif'),
-    (2002, 5, '2002-2005', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2002-2005.gif'),
-    (2005, 5, '2005-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2005.png'),
+    (1905, 5, '1906-1951', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1905-1952.jpg'),
+    (1952, 5, '1952-1953', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1952-1953.jpg'),
+    (1953, 5, '1953-1986', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1953-1986.jpg'),
+    (1986, 5, '1986-2002', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/1986-2002.jpg'),
+    (2002, 5, '2002-2005', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2002-2005.jpg'),
+    (2005, 5, '2005-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2005-Actuel.png'),
 
     (1899, 6, '1899-1906', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1899-1906.jpg'),
     (1906, 6, '1906-1920', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1906-1920.jpg'),
@@ -499,7 +498,7 @@ INSERT INTO Logo VALUES
     (2002, 6, '2002-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/2002-Actuel.jpg'),
 
     (1970, 7, '1970-1972', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1970-1972.png'),
-    (1972, 7, '1972-1982', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1972-1982.gif'),
+    (1972, 7, '1972-1982', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1972-1982.jpg'),
     (1982, 7, '1982-1992', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1982-1992.png'),
     (1992, 7, '1992-1996', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1992-1996.png'),
     (1996, 7, '1996-2002', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1996-2002.png'),
