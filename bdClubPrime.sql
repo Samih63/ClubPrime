@@ -112,7 +112,7 @@ INSERT INTO Ligue (nom, idPays, photoLigue) VALUES
 ('Premier League', 2),
 ('La Liga', 3),
 ('Ligue 1', 4),
-('Serie A', 7);
+('Serie A', 5);
 
 -- Insertion de données dans la table Club
 INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, entraineur, photoEntraineur) VALUES
@@ -154,8 +154,8 @@ INSERT INTO Trophee (nom, photoTrophee) VALUES
 ('Premier League Asia Trophy'),
 ('International Champions Cup'),
 ('Trophée Joan Gamper'),
-('UEFA Europa Conference League');
-
+('UEFA Europa Conference League'),
+('League Championship');
 -- Insertion de données dans la table Classement
 INSERT INTO Classement (annee, position, idClub) VALUES
 ('2022', 1, 1),
@@ -175,10 +175,10 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 ('2023', 2, 1),  -- Bayern
 ('2023', 4, 2),  -- Liverpool
 ('2023', 1, 3),  -- Man City
-('2023', 7, 4),  -- Man City
-('2023', 3, 7),  -- Chelsea
-('2023', 9, 7),  -- Barcelona
-('2023', 7, 7),  -- Paris
+('2023', 5, 4),  -- Real madrid
+('2023', 3, 5),  -- Chelsea
+('2023', 9, 6),  -- Barcelona
+('2023', 6, 7),  -- Paris
 ('2023', 8, 8),  -- Atletico Madrid
 ('2023', 7, 9),  -- Man United
 ('2023', 10, 11); -- Roma
@@ -187,22 +187,22 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 -- Insertion de données dans la table Obtenir (association entre Clubs et Trophées)
 INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 -- Bayern Munich
-(1, 7, 17), -- Ligue des Champions
+(1, 6, 17), -- Ligue des Champions
 (1, 1, 18), -- UEFA Europa League
 (1, 33, 11), -- Bundesliga
 (1, 20, 12), -- DFB Pokal
 (1, 2, 19), -- Super Coupe UEFA
-(1, 10, 9), -- Super Cup (Community Shield)
+(1, 11, 13), -- Super Cup Allemande
 (1, 2, 20), -- FIFA Club World Cup (CM Clubs)
 (1, 3, 21), -- Audi Cup
 
 -- Liverpool
-(2, 7, 17), -- Ligue des Champions
+(2, 6, 17), -- Ligue des Champions
 (2, 3, 18), -- UEFA Europa League
 (2, 19, 7), -- Premier League
 (2, 8, 8), -- FA Cup
-(2, 4, 7), -- League Championship
-(2, 9, 7), -- League Cup
+(2, 4, 26), -- League Championship
+(2, 9, 9), -- League Cup 
 (2, 17, 10), -- Community Shield (Angleterre)
 (2, 4, 19), -- Super Coupe UEFA
 (2, 1, 20), -- Cdm club
@@ -212,40 +212,40 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (3, 1, 17), -- Ligue des Champions
 (3, 9, 7), -- Premier League
 (3, 7, 8), -- FA Cup
-(3, 7, 7), -- League Championship
+(3, 7, 26), -- League Championship
 (3, 8, 9), -- League Cup
-(3, 7, 10), -- Community Shield (Angleterre)
+(3, 6, 10), -- Community Shield (Angleterre)
 
--- Man City
+-- Real Madrid 
 (4, 14, 17), -- Ligue des Champions
 (4, 2, 18), -- UEFA Europa League
-(4, 37, 14), -- Liga
+(4, 35, 14), -- Liga
 (4, 20, 17), -- Coupe du Roi
-(4, 10, 17), -- Supercopa de España
-(4, 4, 19), -- Super Coupe UEFA
-(4, 7, 20), -- CM Clubs
+(4, 12, 17), -- Supercopa de España
+(4, 5, 19), -- Super Coupe UEFA
+(4, 8, 20), -- CM Clubs
 (4, 1, 23), -- International Champions Cup
 
 -- Chelsea
-(7, 2, 17), -- Ligue des Champions
-(7, 2, 18), -- UEFA Europa League
-(7, 7, 7), -- Premier League
-(7, 8, 8), -- FA Cup
-(7, 2, 7), -- League Championship
-(7, 7, 7), -- League Cup
-(7, 4, 10), -- Community Shield (Angleterre)
-(7, 2, 19), -- Super Coupe UEFA
-(7, 1, 20), -- CM Clubs
+(5, 2, 17), -- Ligue des Champions
+(5, 2, 18), -- UEFA Europa League
+(5, 7, 7), -- Premier League
+(5, 8, 8), -- FA Cup
+(5, 2, 7), -- League Championship
+(5, 7, 7), -- League Cup
+(5, 4, 10), -- Community Shield (Angleterre)
+(5, 2, 19), -- Super Coupe UEFA
+(5, 1, 20), -- CM Clubs
 
 -- FC Barcelone
-(7, 7, 17), -- Ligue des Champions
-(7, 27, 14), -- Liga
-(7, 31, 17), -- Coupe du Roi
-(7, 14, 17), -- Supercopa de España
-(7, 7, 19), -- Super Coupe UEFA
-(7, 3, 20), -- CM Clubs
-(7, 1, 21), -- Audi Cup
-(7, 7, 24), -- Trophée Joan Gamper
+(6, 7, 17), -- Ligue des Champions
+(6, 27, 14), -- Liga
+(6, 31, 17), -- Coupe du Roi
+(6, 14, 17), -- Supercopa de España
+(6, 7, 19), -- Super Coupe UEFA
+(6, 3, 20), -- CM Clubs
+(6, 1, 21), -- Audi Cup
+(6, 7, 24), -- Trophée Joan Gamper
 
 -- Paris Saint-Germain (PSG)
 (7, 11, 1), -- Ligue 1
