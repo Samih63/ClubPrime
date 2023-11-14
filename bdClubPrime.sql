@@ -514,10 +514,10 @@ INSERT INTO Logo VALUES
     (2017, 8, '2017-2020', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Juventus/2017-2020.png'),
     (2020, 8, '2020-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Juventus/2020-Actuel.png'),
 
-    (1903, 9, '1903-1911', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1903-1911.gif'),
+    (1903, 9, '1903-1911', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1903-1911.jpg'),
     (1911, 9, '1911-1939', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1911-1939.png'),
-    (1939, 9, '1939-1942', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1939-1942.gif'),
-    (1942, 9, '1942-1947', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1942-1947.gif'),
+    (1939, 9, '1939-1942', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1939-1942.jpg'),
+    (1942, 9, '1942-1947', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1942-1947.jpg'),
     (1947, 9, '1947-2016', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/1947-2016.png'),
     (2017, 9, '2017-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Atletico/2017-Actuel.png'),
 
