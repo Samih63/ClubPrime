@@ -108,11 +108,11 @@ INSERT INTO Pays (nom) VALUES
 
 -- Insertion de données dans la table Ligue
 INSERT INTO Ligue (nom, idPays, photoLigue) VALUES
-('Bundesliga', 1),
-('Premier League', 2),
-('La Liga', 3),
-('Ligue 1', 4),
-('Serie A', 5);
+('Bundesliga', 1, 'C:\Users\sdasilva\Desktop\logo\bundesliga.png'),
+('Premier League', 2,"C:\Users\sdasilva\Desktop\logo\premierleague.png"),
+('La Liga', 3,"C:\Users\sdasilva\Desktop\logo\laliga"),
+('Ligue 1', 4,"C:\Users\sdasilva\Desktop\logo\ligue1"),
+('Serie A', 5),"C:\Users\sdasilva\Desktop\logo\seriaA";
 
 -- Insertion de données dans la table Club
 INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, entraineur, photoEntraineur) VALUES
@@ -254,7 +254,8 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (8, 9, 7), -- Supercoppa Italiana
 (8, 36, 4), -- Serie A
 (8, 14, 7), -- Coppa Italia
-(8, 1, 19)
+(8, 1, 19), -- Super Coupe de luefa 
+(8, 1, 12),
 
 -- Atlético Madrid
 (9, 3, 18), -- UEFA Europa League
