@@ -108,11 +108,11 @@ INSERT INTO Pays (nom) VALUES
 
 -- Insertion de données dans la table Ligue
 INSERT INTO Ligue (nom, idPays, photoLigue) VALUES
-('Bundesliga', 1),
-('Premier League', 2),
-('La Liga', 3),
-('Ligue 1', 4),
-('Serie A', 5);
+('Bundesliga', 1, 'C:\Users\sdasilva\Desktop\logo\bundesliga.png'),
+('Premier League', 2,"C:\Users\sdasilva\Desktop\logo\premierleague.png"),
+('La Liga', 3,"C:\Users\sdasilva\Desktop\logo\laliga"),
+('Ligue 1', 4,"C:\Users\sdasilva\Desktop\logo\ligue1"),
+('Serie A', 5),"C:\Users\sdasilva\Desktop\logo\seriaA";
 
 -- Insertion de données dans la table Club
 INSERT INTO Club (nom, stade, descr, dateCrea, idLigue, descrStade, photoStade, entraineur, photoEntraineur) VALUES
@@ -254,7 +254,8 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (8, 9, 7), -- Supercoppa Italiana
 (8, 36, 4), -- Serie A
 (8, 14, 7), -- Coppa Italia
-(8, 1, 19)
+(8, 1, 19), -- Super Coupe de luefa 
+(8, 1, 12),
 
 -- Atlético Madrid
 (9, 3, 18), -- UEFA Europa League
@@ -486,16 +487,16 @@ INSERT INTO Logo VALUES
     (2002, 5, '2002-2005', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2002-2005.gif'),
     (2005, 5, '2005-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Chelsea/2005.png'),
 
-    (1899, 6, '1899-1906', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1899-1906.GIF'),
-    (1906, 6, '1906-1920', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1906-1920.GIF'),
-    (1920, 6, '1920-1936', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1920-1936.gif'),
-    (1936, 6, '1936-1939', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1936-1939.gif'),
-    (1939, 6, '1939-1946', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1939-1946.gif'),
-    (1946, 6, '1946-1960', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1946-1960.gif'),
-    (1960, 6, '1960-1974', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1960-1974.gif'),
-    (1974, 6, '1974-1975', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1974-1975.gif'),
-    (1975, 6, '1975-2002', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1975-2002.png'),
-    (2002, 6, '2002-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/2002-Actuel.gif'),
+    (1899, 6, '1899-1906', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1899-1906.jpg'),
+    (1906, 6, '1906-1920', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1906-1920.jpg'),
+    (1920, 6, '1920-1936', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1920-1936.jpg'),
+    (1936, 6, '1936-1939', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1936-1939.jpg'),
+    (1939, 6, '1939-1946', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1939-1946.jpg'),
+    (1946, 6, '1946-1960', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1946-1960.jpg'),
+    (1960, 6, '1960-1974', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1960-1974.jpg'),
+    (1974, 6, '1974-1975', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1974-1975.jpg'),
+    (1975, 6, '1975-2002', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/1975-2002.jpg'),
+    (2002, 6, '2002-Actuel', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/Barcelone/2002-Actuel.jpg'),
 
     (1970, 7, '1970-1972', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1970-1972.png'),
     (1972, 7, '1972-1982', 'Z:/TS2SIO SLAM/KRARIA Samih/Projet SLAM/Projet ClubPrime/Logo/PSG/1972-1982.gif'),
