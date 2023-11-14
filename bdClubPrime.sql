@@ -154,8 +154,7 @@ INSERT INTO Trophee (nom, photoTrophee) VALUES
 ('Premier League Asia Trophy'),
 ('International Champions Cup'),
 ('Trophée Joan Gamper'),
-('UEFA Europa Conference League'),
-('League Championship');
+('UEFA Europa Conference League');
 -- Insertion de données dans la table Classement
 INSERT INTO Classement (annee, position, idClub) VALUES
 ('2022', 1, 1),
@@ -168,8 +167,6 @@ INSERT INTO Classement (annee, position, idClub) VALUES
 ('2022', 8, 8),
 ('2022', 9, 9),
 ('2022', 10, 10);
-
-
 
 INSERT INTO Classement (annee, position, idClub) VALUES
 ('2023', 2, 1),  -- Bayern
@@ -201,7 +198,6 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (2, 3, 18), -- UEFA Europa League
 (2, 19, 7), -- Premier League
 (2, 8, 8), -- FA Cup
-(2, 4, 26), -- League Championship
 (2, 9, 9), -- League Cup 
 (2, 17, 10), -- Community Shield (Angleterre)
 (2, 4, 19), -- Super Coupe UEFA
@@ -212,7 +208,6 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (3, 1, 17), -- Ligue des Champions
 (3, 9, 7), -- Premier League
 (3, 7, 8), -- FA Cup
-(3, 7, 26), -- League Championship
 (3, 8, 9), -- League Cup
 (3, 6, 10), -- Community Shield (Angleterre)
 
@@ -229,23 +224,22 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 -- Chelsea
 (5, 2, 17), -- Ligue des Champions
 (5, 2, 18), -- UEFA Europa League
-(5, 7, 7), -- Premier League
+(5, 6, 7), -- Premier League
 (5, 8, 8), -- FA Cup
-(5, 2, 7), -- League Championship
-(5, 7, 7), -- League Cup
+(5, 5, 7), -- League Cup
 (5, 4, 10), -- Community Shield (Angleterre)
 (5, 2, 19), -- Super Coupe UEFA
 (5, 1, 20), -- CM Clubs
 
 -- FC Barcelone
-(6, 7, 17), -- Ligue des Champions
+(6, 5, 17), -- Ligue des Champions
 (6, 27, 14), -- Liga
 (6, 31, 17), -- Coupe du Roi
 (6, 14, 17), -- Supercopa de España
-(6, 7, 19), -- Super Coupe UEFA
+(6, 5, 19), -- Super Coupe UEFA
 (6, 3, 20), -- CM Clubs
 (6, 1, 21), -- Audi Cup
-(6, 7, 24), -- Trophée Joan Gamper
+(6, 6, 24), -- Trophée Joan Gamper
 
 -- Paris Saint-Germain (PSG)
 (7, 11, 1), -- Ligue 1
@@ -254,12 +248,13 @@ INSERT INTO Obtenir (idClub, nombre, idTrophee) VALUES
 (7, 9, 12), -- Coupe de la Ligue
 (7, 1, 17), -- Ligue des Champions
 
--- Atletico Madrid
+-- Juventus
 (8, 2, 17), -- UEFA Champions League
 (8, 3, 18), -- UEFA Europa League
 (8, 9, 7), -- Supercoppa Italiana
-(8, 37, 4), -- Serie A
+(8, 36, 4), -- Serie A
 (8, 14, 7), -- Coppa Italia
+(8, 1, 19)
 
 -- Atlético Madrid
 (9, 3, 18), -- UEFA Europa League
